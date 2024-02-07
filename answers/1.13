@@ -1,0 +1,4 @@
+curl http://backend_container/write
+docker exec -it backend_container /bin/bash
+docker stop $(docker ps -aq)
+docker rmi $(docker images -q)
