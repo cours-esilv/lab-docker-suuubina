@@ -1,0 +1,2 @@
+docker exec -it container_mlops /bin/bash
+cat /etc/*release
