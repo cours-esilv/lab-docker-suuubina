@@ -1,3 +1,0 @@
-docker build -t suuubina/front-image .
-docker push suuubina/front-image
-docker run -d -p 8080:80 -e WS_BACK_URL=http://backend_service_address:5000 suuubina/front-image
