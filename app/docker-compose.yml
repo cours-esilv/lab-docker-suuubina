@@ -1,0 +1,8 @@
+version: '3'
+services:
+  backend:
+    image: my_backend_image
+    ports:
+      - "5000:5000"
+    environment:
+      - WS_BACK_URL=http://backend:5000
